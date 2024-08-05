@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="menu container">
+
+    <div class="contain">
+
+        <div class="list">
+        </div>
+    </div>
+    <div class="card">
+        <div class="titulo">
+        <span>C</span>
+        <span>A</span>
+        <span>R</span>
+        <span>D</span>
+        </div>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <button class="buy"><h2>Comprar</h2></button>
+            <button class="closeShopping"><h2>Close</h2></button>
+        </div>
+    </div>
+    
+        <img class="logo-1" src="image/Captura de pantalla 2024-06-18 120013.png" alt="">
+        <input type="checkbox" name="" id="menu">
+        <label for="menu">
+            <img src="image/menu.png" alt="" class="menu-icono">
+        </label>
+        <nav class="navbar">
+        <div class="menu-1">
+        
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+        </ul>
+        </div>
+
+        <img src="image/Captura de pantalla 2024-06-18 121610.png" alt="" class="logo-2">
+
+        <div class="menu-2">
+            <ul>
+                <li><a href="">Horario</a></li>
+            </ul>
+        <a href="#" class="sesion">Inicio Sesión <i id="user" class="fa-solid fa-user"></i></a>
+        <span class="overlay"></span>
+        <div class="shopping">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="quantity">0</span>
+        </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="header-content container">
+        <div class="swiper mySwiper-1">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slider">
+                        <div class="slider-txt">
+                            <h1>Guitarras <span>ONSALE</span></h1>
+                            <p>¡Te invitamos a conocer nuestra espectacular tienda de intrumentos musicales varios. Perfecta para vos. A precios justos, e inigualables!¡Mirá!</p>
+                            <div class="botones">
+                                <a href="#" class="btn-1">Comprar</a>
+                                <a href="#" class="btn-1">Menu</a>
+                            </div>
+                        </div>
+                        <div class="slider-img">
+                            <img src="image/guitarra11-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider">
+                        <div class="slider-txt">
+                            <h1>GUITARRAS <span>ONSALE</span></h1>
+                            <p>¡Te invitamos a conocer nuestra espectacular tienda de intrumentos musicales varios. Perfecta para vos. A precios justos, e inigualables!¡Mirá!</p>
+                            <div class="botones">
+                                <a href="#" class="btn-1">Comprar</a>
+                                <a href="#" class="btn-1">Menu</a>
+                            </div>
+                        </div>
+                        <div class="slider-img">
+                            <img src="image/guitarra10-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider">
+                        <div class="slider-txt">
+                            <h1>GUITARRAS <span>ONSALE</span></h1>
+                            <p>¡Te invitamos a conocer nuestra espectacular tienda de intrumentos musicales varios. Perfecta para vos. A precios justos, e inigualables!¡Mirá!</p>
+                            <div class="botones">
+                                <a href="#" class="btn-1">Comprar</a>
+                                <a href="#" class="btn-1">Menu</a>
+                            </div>
+                        </div>
+                        <div class="slider-img">
+                            <img src="image/guitarra12-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    </header>
+
+    <main class="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Guitarras</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/guitarra9-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.100.000</span>
+                                    <button class="addToCard" data-product-id="1">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/guitarra7-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$400.000</span>
+                                    <button class="addToCard" data-product-id="2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/guitarra8-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$200.000</span>
+                                    <button class="addToCard" data-product-id="3">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Vientos</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/viento1-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$700.000</span>
+                                    <button class="addToCard" data-product-id="4">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/viento2-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$100.000</span>
+                                    <button class="addToCard" data-product-id="5">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/viento3-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$500.000</span>
+                                    <button class="addToCard" data-product-id="6">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Percusión</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/percusion1-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$60.000</span>
+                                    <button class="addToCard" data-product-id="7">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/percusion2-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$10.000</span>
+                                    <button class="addToCard" data-product-id="8">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="image/percusion3-removebg-preview.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$300.000</span>
+                                    <button class="addToCard" data-product-id="9">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    
+        <section class="info container">
+
+            <div class="info-img">
+                <img src="image/guitarra4-removebg-preview.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>Información</h2>
+                <p>Disponemos de una amplia variedad de productos en nuestro catálogo, desde instrumentos de orquesta y estudio, hasta guitarras, baterías, pianos digitales, saxofones y ukeleles, además de equipos de grabación y microfonía líderes en el mercado.
+
+                Desde guitarras criollas para principiantes hasta micrófonos y amplificadores profesionales, la tienda de instrumentos musicales online Music Store dispone de una amplia gama de equipamiento musical. ¡Para enterarte de la llegada de más de nuestros instrumentos, te invitamos a registrarte!
+                </p>
+                <a href="#" class="btn-2">Registrarme</a>
+            </div>
+
+        </section>
+
+        <section class="horario">
+            <div class="horario-info container">
+                <h2>Horario</h2>
+                <div class="horario-txt">
+                    <div class="txt">
+                        <h4>Dirección</h4>
+                        <p>Martin García 463, CABA - Buenos Aires</p>
+                        <p>Chuquisaca 1973, La Rioja - Capital</p>
+                    </div>
+                    <div class="txt">
+                        <h4>Horario</h4>
+                        <p>Lunes a Viernes : 9 am - 8 pm</p>
+                        <p>Sábado y Domingo : 11 am - 7 pm</p>
+                    </div>
+                    <div class="txt">
+                        <h4>Teléfono</h4>
+                        <p>380-422-1663</p>
+                        <p>380-460-4576</p>
+                    </div>
+                    <div class="txt">
+                        <h4>Redes Sociales</h4>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=61550067862468&mibextid=ZbWKwL" target="_blank">
+                                <div class="social">
+                                    <img src="image/s1.svg" alt="">
+                                </div>
+                            </a>
+                            <a href="https://wa.me/3804221663" target="_blank">
+                                <div class="social">
+                                    <img src="image/s6.svg" alt="">
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/lu.carradore?igsh=eDYwbThvbHozMTky" target="_blank">
+                                <div class="social">
+                                    <img src="image/s3.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55607.98013910735!2d-66.89697688686316!3d-29.414215844573754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427d9873396f7e5%3A0x3e1c9c348972c7ca!2sLa%20Rioja!5e0!3m2!1ses-419!2sar!4v1716466584705!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <footer class="footer container">
+            <img src="" alt="" class="logo-2">
+            <div class="links">
+                <h4>Formas de Pago</h4>
+                <ul>
+                    <li><a href="#">Mercadopago</a></li>
+                    <li><a href="#">VISA</a></li>
+                    <li><a href="#">Naranja</a></li>
+                    <li><a href="#">Cabal</a></li>
+                    <li><a href="#">Diners</a></li>
+                    <li><a href="#">AMEX</a></li>
+                    <li><a href="#">Maestro</a></li>
+                    <li><a href="#">MasterCard</a></li>
+                    <li><a href="#">MasterDebit</a></li>
+                </ul>
+            </div>
+        
+            <div class="links">
+                <h4>Pregunta frecuente</h4>
+                <h5>¿Cuál es el costo de envío?</h5>
+                <p>Los costos de envío varían según el destino, el peso y el tamaño del paquete. Puedes calcular el costo de envío en la página del producto antes de realizar la compra con solo ingresar tu codigo postal.</p>
+            </div>
+            <div class="links">
+                <h4>Redes Sociales</h4>
+                <div class="socials">
+                    <a href="https://www.facebook.com/profile.php?id=61550067862468&mibextid=ZbWKwL" target="_blank">
+                        <div class="social">
+                            <img src="image/s1.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="https://wa.me/3804221663" target="_blank">
+                        <div class="social">
+                            <img src="image/s6.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/lu.carradore?igsh=eDYwbThvbHozMTky" target="_blank">
+                        <div class="social">
+                            <img src="image/s3.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+    </html>
