@@ -82,6 +82,11 @@ body.active .card {
     z-index: 1000;
   }
 
+  .increase, .decrease {
+    cursor: pointer;
+  }
+
+
   .card h1{
     color: #fff;
     text-align: center;
@@ -179,7 +184,7 @@ body.active .card {
     text-align: center;
   }
 
-  .closeShopping{
+  .closeShopping, .buy{
     background-color: #DB241B;
     color: #ffffff;
     padding: 10px 20px;
@@ -189,16 +194,7 @@ body.active .card {
     margin-top: 100px;
      }
   
-  .buy{
-    background-color: #DB241B;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 100px;
-     }
-
+  
   
 
 
